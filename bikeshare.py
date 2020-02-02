@@ -17,25 +17,29 @@ DOW_LISTED = ['all', 'monday', 'tuesday', 'wednesday', 'thursday', 'friday',
 #Line to use between inputs/outputs
 line = '/'*40
 
-#This ascii art belongs to Chritopher Jhonsons
+#This is a ascii bike made by myself
 art_bike = """
-                                           $"   *.
-               d$$$$$$$P"                  $    J
-                   ^$.                     4r  "
-                   d"b                    .db
-                  P   $                  e" $
-         ..ec.. ."     *.              zP   $.zec..
-     .^        3*b.     *.           .P" .@"4F      "4
-   ."         d"  ^b.    *c        .$"  d"   $         %
-  /          P      $.    "c      d"   @     3r         3
- 4        .eE........$r===e$$$$eeP    J       *..        b
- $       $$$$$       $   4$$$$$$$     F       d$$$.      4
- $       $$$$$       $   4$$$$$$$     L       *$$$"      4
- 4         "      ""3P ===$$$$$$"     3                  P
-  *                 $       ¨"¨        b                J
-   ".             .P                    %.             @
-     %.         z*"                      ^%.        .r"
-        "*==*""                             ^"*==*""
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                   %/##&&%                      
+                        #//((/(/ (                   /                          
+                              .                      @&                         
+                              &@&&&&&&&&&&&*          &&.                       
+                             & &                      &&                        
+                 /%#.       &   &                   &   &.,                     
+           %&,,        *%&&      &               *&    %&&%# *    , &%          
+         &,             &&  &.   &             &&   &&*  &&            /%       
+       %,              &     *&   &          &(   &%      &              /&     
+       (            .&%       /&   &       &     &/        &*       *     ,&    
+      &*,..     .&%&,/..       (&   &   &&       &.      .   & . .         (&   
+       *       * ,&@.%/@&&%(&&@/&&,  @&,         &          , #/ ,         #&   
+       &*       .* @          *& ** **,,..%(,    &*                  .  .  &    
+         (,       &%         *&     /,#           &*      . .,           *&     
+           %               ,&                      .&,       .          *&      
+              &&......,.&&                            &&,           .,&         
+                                                          .%&&&&&&..            
 
 """
 
@@ -74,6 +78,7 @@ calendar = """
 
 """
 
+#Every time an error ocurrs when using "try" the "except" will return this message
 error = '\nOpps! Sorry, something went wrong   :( \n'
 
 #Function to filter through the user's input
@@ -312,7 +317,7 @@ def raw_data(df):
         
         print(format(str(df[start: end])))
 
-
+        #If user wants to see more raw data, the "while" function will provide it as long as the user keeps answering yes
         while end < row_count:
 
             continue_raw_data = input('>> Would you like to see more raw data? Answer Yes to continue: \n')
@@ -326,6 +331,7 @@ def raw_data(df):
                 print(format(str(df[start: end])))
             else:
                 break
+        #Once there's no more raw data to be displayed for the user, this message will appear
         else:    
             print('\n No more data to show \n')
     except:
