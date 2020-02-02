@@ -2,13 +2,17 @@
 
 This is a repository originally done for a Udacity course: Programming for Data Science with Python
 
+<h3> Project Title </h3>
 
-<h2> What the project does </h2>
+Explore US Bikeshare Data
 
-The python code provides the users with statistics about bikesharing in three cities: New York City, Washington and Chicago.
+<h2> Description </h2>
 
-This is done through simple command lines the user has to input in the terminal.
+The python code provides the users with statistics about bikesharing in three cities: New York City, Washington and Chicago. This is done through simple command lines the user has to input in the terminal.
 
+<h3> Date created </h3>
+
+2-Feb-2020
 
 <h3> Requirements </h3>
 
@@ -38,7 +42,7 @@ Users will need to answer which statistics they want to be provided by inputing 
 Additionally, users can check the raw data (if user selected a particular "month" or "day of the week" this will also be filtered when displaying the data).
 
 
-<h3> Files in repository </h3>
+<h3> Files used </h3>
 
 - .gitignore
 - bikeshare.py
@@ -47,3 +51,7 @@ Additionally, users can check the raw data (if user selected a particular "month
 <h3> Miscellanous </h3>
 
 Some ascii art has been added so the interactions with the user are more friendly.
+
+<h3> Credits </h3>
+
+Ascci art credits are in commented in "bikeshare.py".
