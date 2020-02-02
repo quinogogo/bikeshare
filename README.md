@@ -43,3 +43,7 @@ Additionally, users can check the raw data (if user selected a particular "month
 - .gitignore
 - bikeshare.py
 - README.md
+
+<h3> Miscellanous </h3>
+
+Some ascii art has been added so the interactions with the user are more friendly.
