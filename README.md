@@ -1,6 +1,6 @@
 <h1> README </h1>
 
-This is a repository originally done for a Udacity course.
+This is a repository originally done for a Udacity course: Programming for Data Science with Python
 
 
 <h2> What the project does </h2>
