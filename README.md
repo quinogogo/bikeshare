@@ -54,4 +54,4 @@ Some ascii art has been added so the interactions with the user are more friendl
 
 <h3> Credits </h3>
 
-Ascci art credits are in commented in "bikeshare.py".
+Ascci art credits are commented in "bikeshare.py".
